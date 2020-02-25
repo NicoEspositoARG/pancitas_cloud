@@ -2,7 +2,7 @@ import React from 'react';
 import './Order.css';
 
 import Header from './Header';
-import ItemList from './ItemList';
+import ItemsTable from './ItemsTable';
 
 import { makeStyles } from '@material-ui/core/styles';
 
@@ -24,7 +24,7 @@ const Order = () => {
             <form className={classes.root} noValidate autoComplete="off">
             <Header />
             
-            <ItemList/>
+            <ItemsTable/>
             </form>
         </div>
 
