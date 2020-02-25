@@ -1,6 +1,5 @@
 .tableWrapper{
     font-family: inherit;
-    /* width: 50vw; */
     background-color: transparent;
 }
 
@@ -22,5 +21,26 @@
 
 .servicesTable {
     background-color: #f9f9f9 !important;
-
+    max-width: 95%;
 }
+
+/* .cellStyle {
+    padding-top: "0.5rem";
+    padding-right: "1rem";
+    padding-bottom: "0.5rem";
+    padding-left: "1rem";
+    text-align: "left";
+} */
+
+/* .cellStyleSmall !important  {
+    padding-top: "0.5rem";
+    padding-right: "0.5rem";
+    padding-left: "2rem";
+    padding-bottom: "0.5rem";
+    text-align: "center";
+    background-color: red;
+    color:red;
+    width: "50%"
+
+} */
+ 
